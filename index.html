@@ -14,25 +14,39 @@
     <script>
      //javaScript(includes <script> line above):
 
-      fetch('https://api.covid19api.com/world/total')
+      fetch('https://api.covid19api.com/summary')
       .then((res) => res.json())
       .then((data) => {
         let output = 
             `
             <table style="width:100%">
               <tr>
+                <td>Country</td>
                 <td>Total Confirmed:</td>
                 <td>Total Deaths</td>
                 <td>Total Recovered</td>
               </tr>
               <tr>
-                <td>${data.TotalConfirmed}</td>
-                <td>${data.TotalDeaths}</td>
-                <td>${data.TotalRecovered}</td>
+                <td>Global</td>
+                <td>${data.Global.TotalConfirmed}</td>
+                <td>${data.Global.TotalDeaths}</td>
+                <td>${data.Global.TotalRecovered}</td>
               </tr>
-            </table>
+            
             `;
 
+            data.Countries.forEach(function(country) {
+              output +=
+              `
+              <tr>
+                <td>${country.Country}</td>
+                <td>${country.TotalConfirmed}</td>
+                <td>${country.TotalDeaths}</td>
+                <td>${country.TotalRecovered}</td>
+              </tr>
+              `;
+            });
+        output += '</table>';
         document.getElementById('output').innerHTML = output;
       })
     
