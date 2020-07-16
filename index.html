@@ -19,13 +19,20 @@
       .then((data) => {
         let output = 
             `
-            <div>
-              <p>Total Confirm: ${data.TotalConfirmed}</p>
-              <p>Total Deaths: ${data.TotalDeaths}</p>
-              <p>Total Recovered: ${data.TotalRecovered}</p>
-            </div>
-            `
-          ;
+            <table style="width:100%">
+              <tr>
+                <td>Total Confirmed:</td>
+                <td>Total Deaths</td>
+                <td>Total Recovered</td>
+              </tr>
+              <tr>
+                <td>${data.TotalConfirmed}</td>
+                <td>${data.TotalDeaths}</td>
+                <td>${data.TotalRecovered}</td>
+              </tr>
+            </table>
+            `;
+
         document.getElementById('output').innerHTML = output;
       })
     
