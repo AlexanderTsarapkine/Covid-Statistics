@@ -17,3 +17,13 @@ fetch(url)
  globalStat = data.Global;
   console.log(globalStat);
 })
+
+//returns countryStat
+function getCountryStat() {
+  return countryStat;
+}
+
+//returns globalStats
+function getGlobalStat() {
+  return globalStat;
+}
