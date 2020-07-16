@@ -12,20 +12,24 @@
     </div>
 
     <script>
+     //javaScript(includes <script> line above):
 
       fetch('https://api.covid19api.com/world/total')
       .then((res) => res.json())
       .then((data) => {
         let output = 
+            `
             <div>
               <p>Total Confirm: ${data.TotalConfirmed}</p>
               <p>Total Deaths: ${data.TotalDeaths}</p>
               <p>Total Recovered: ${data.TotalRecovered}</p>
             </div>
+            `
           ;
         document.getElementById('output').innerHTML = output;
       })
     
+      //javascript ends here(includes <\script> line below)
     </script>
 </body>
 
