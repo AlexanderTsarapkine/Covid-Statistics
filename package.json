@@ -1,0 +1,30 @@
+{
+  "name": "Covid-Statistics",
+  "version": "1.0.0",
+  "description": "install:",
+  "main": "main.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "javascript": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^2.0.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderTsarapkine/Covid-Statistics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderTsarapkine/Covid-Statistics/issues"
+  },
+  "homepage": "https://github.com/AlexanderTsarapkine/Covid-Statistics#readme"
+}
