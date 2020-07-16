@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Covid Stats</title>
+</head>
+
+<body>
+    <h1 class="display-4 mb-4">Covid-19 World Stats</h1>
+    <div id="output">
+
+    </div>
+
+    <script>
+
+      fetch('https://api.covid19api.com/world/total')
+      .then((res) => res.json())
+      .then((data) => {
+        let output = 
+            <div>
+              <p>Total Confirm: ${data.TotalConfirmed}</p>
+              <p>Total Deaths: ${data.TotalDeaths}</p>
+              <p>Total Recovered: ${data.TotalRecovered}</p>
+            </div>
+          ;
+        document.getElementById('output').innerHTML = output;
+      })
+    
+    </script>
+</body>
+
+</html>
