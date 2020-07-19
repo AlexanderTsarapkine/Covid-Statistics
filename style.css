@@ -32,12 +32,12 @@ td{
 }
 
 header{
-    background-color: #3AAFA9;
+    background-color: #ff0676;
     color: white;
     font-family: Quicksand;
     font-size: 20px;
     padding: 10px;
-    border-bottom: 10px solid #2B7A78;
+    border-bottom: 10px solid #a90676;
     width: 100%;
     position:fixed;
 
@@ -50,7 +50,7 @@ table td{ /* every column */
 }
 
 table{
-    background-color: #DEF2F1;
+
     margin-left: 120px;
 }
 
@@ -59,9 +59,8 @@ body{
 }
 
 button{
-    background-color: white;
+    background-color: #ffeff3;
     padding: 10px;
-    color:#2B7A78;
     font-family: Montserrat;
     border: 0;
     margin-top: 150px;
