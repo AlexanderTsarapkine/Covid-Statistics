@@ -67,11 +67,11 @@ body{
 }
 
 button{
-    background-color: #ffeff3;
     padding: 10px;
     font-family: Montserrat;
     border: 0;
     margin-top: 150px;
+    background-color: white;
 }
 
 
