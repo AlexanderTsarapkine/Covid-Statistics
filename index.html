@@ -10,10 +10,10 @@
     <div id="output"> </div>
     <table>
       <tr>
-        <td><button onclick="myFunction()">sort by Country</button></td>
-        <td><button onclick="myFunction()">sort by Total Confirmed</button></td>
-        <td><button onclick="myFunction()">sort by Total Deaths</button></td>
-        <td><button onclick="myFunction()">sort by Total Recovered</button></td>
+        <td><button onclick="alphabe()">sort by Country</button></td>
+        <td><button onclick="confirme()">sort by Total Confirmed</button></td>
+        <td><button onclick="deat()">sort by Total Deaths</button></td>
+        <td><button onclick="recovere()">sort by Total Recovered</button></td>
       </tr>
     </table>
     <table class = "titles">
@@ -25,9 +25,11 @@
       </tr>
     </table>
 
-    <table id="countryTable">
-        <!-- here goes our data! -->
-    </table>
+    <table id="alphabet"></table>
+    <table id="confirm"></table>
+    <table id="death"></table>
+    <table id="recovered"></table>
+    
     <script type="text/javascript" src="makeTable.js"></script>
     <script type="text/javascript" src="sortTable.js"></script>
 </body>
