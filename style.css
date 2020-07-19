@@ -39,6 +39,7 @@ header{
     padding: 10px;
     border-bottom: 10px solid #2B7A78;
     width: 100%;
+    position:fixed;
 
     
   }
@@ -63,6 +64,7 @@ button{
     color:#2B7A78;
     font-family: Montserrat;
     border: 0;
+    margin-top: 150px;
 }
 
 .titles{
