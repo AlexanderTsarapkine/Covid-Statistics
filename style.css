@@ -27,6 +27,16 @@
     font-family: Montserrat;
 }
 
+#title td:nth-child(1) {
+    text-align: left;
+}
+
+#title td{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 td{
     padding: 10px;
 }
@@ -40,8 +50,6 @@ header{
     border-bottom: 10px solid #a90676;
     width: 100%;
     position:fixed;
-
-    
   }
 
 table td{ /* every column */
@@ -66,10 +74,6 @@ button{
     margin-top: 150px;
 }
 
-.titles{
-    font-size: 20px;
-
-}
 
   .monsterrat{
       font-family: Montserrat;
