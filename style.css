@@ -17,12 +17,20 @@
   }
 
 /*  country names column */
-#countryTable td:nth-child(1) { 
+#countryTable td:nth-child(1),
+#alphabet td:nth-child(1),
+#confirm td:nth-child(1),
+#death td:nth-child(1),
+#recovered td:nth-child(1) { 
     
     text-align: left;
 }
 /*  country statistics */
-#countryTable{
+#countryTable,
+#alphabet,
+#confirm,
+#death,
+#recovered {
     text-align: center;
     font-family: Montserrat;
 }
@@ -31,7 +39,7 @@
     text-align: left;
 }
 
-#title td{
+#title td {
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
@@ -41,7 +49,7 @@ td{
     padding: 10px;
 }
 
-header{
+header {
     background-color: #ff0676;
     color: white;
     font-family: Quicksand;
@@ -52,21 +60,21 @@ header{
     position:fixed;
   }
 
-table td{ /* every column */
+table td { /* every column */
     width: 220px;
     
 }
 
-table{
+table {
 
     margin-left: 120px;
 }
 
-body{
+body {
     background-color: white;
 }
 
-button{
+button {
     padding: 10px;
     font-family: Montserrat;
     border: 0;
@@ -75,7 +83,7 @@ button{
 }
 
 
-  .monsterrat{
+  .monsterrat {
       font-family: Montserrat;
   }
 
