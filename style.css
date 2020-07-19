@@ -9,27 +9,56 @@
   }
 
   @font-face {
-    font-family: 'Raleway';
+    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/raleway/v17/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CIPrE.woff2) format('woff2');
+    src: url(https://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo58a-wg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  
-#countryTable td:nth-child(1) {
+
+/*  country names column */
+#countryTable td:nth-child(1) { 
     
     text-align: left;
 }
+/*  country statistics */
 #countryTable{
     text-align: center;
-    border-collapse: collapse;
     font-family: Montserrat;
 }
-table td{
-    width: 200px;
+
+td{
+    padding: 10px;
+}
+
+header{
+    background-color: #3AAFA9;
+    color: white;
+    font-family: Quicksand;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 10px solid #2B7A78;
+    width: 100%;
+
+    
+  }
+
+table td{ /* every column */
+    width: 220px;
+    
+}
+
+table{
+    background-color: #DEF2F1;
+    margin-left: 120px;
+}
+
+body{
+    background-color: white;
 }
 
 .titles{
+    font-size: 20px;
 
 }
 
@@ -37,9 +66,3 @@ table td{
       font-family: Montserrat;
   }
 
-  .covidWorldStats{
-    padding: 20px;
-    background-color: #3AAFA9;
-    color: white;
-    font-family: Raleway;
-  }
