@@ -47,6 +47,11 @@
     font-weight: bolder;
 }
 
+img {
+    max-width:100px;
+    height:auto;
+}
+
 td{
     padding: 10px;
 }
