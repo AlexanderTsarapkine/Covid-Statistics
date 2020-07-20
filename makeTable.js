@@ -16,7 +16,13 @@ function generateTable(table, data) {
     for (key in element) {
       if(key === 'Country' || key === 'TotalConfirmed' || key === 'TotalDeaths' || key === 'TotalRecovered'){
         let cell = row.insertCell();
-        let text = document.createTextNode(element[key]);
+        let text;
+        if(key != 'Country'){
+          text = document.createTextNode((element[key]).toLocaleString('en'));
+        }
+        else{
+          text = document.createTextNode(element[key]);
+        }
         cell.appendChild(text);
       }
     }
