@@ -1,4 +1,4 @@
-//main api call from our MongoDB server
+//main api call to be used
 const express = require("express");
 const fetch = require("node-fetch");
 const port = process.env.PORT;
