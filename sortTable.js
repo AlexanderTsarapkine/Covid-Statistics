@@ -1,4 +1,6 @@
 
+//4 different sorting options
+
 let alpha = document.getElementById("alphabet");
 let confirmed = document.getElementById("confirm");
 let death = document.getElementById("death");
