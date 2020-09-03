@@ -28,4 +28,3 @@ function generateTable(table, data) {
     }
   }
 }
-
