@@ -21,8 +21,13 @@
 #alphabet td:nth-child(1),
 #confirm td:nth-child(1),
 #death td:nth-child(1),
+<<<<<<< HEAD
 #recovered td:nth-child(1) { 
     
+=======
+#recovered td:nth-child(1) {
+
+>>>>>>> parent of 46d129d... improved ui a bit
     text-align: left;
 }
 /*  country statistics */
@@ -35,6 +40,35 @@
     font-family: Montserrat;
 }
 
+<<<<<<< HEAD
+=======
+#alphabet td, #alphabet th, #confirm td, #confirm th, #death td, #death th, #recovered td, #recovered th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#alphabet tr:nth-child(even), #confirm tr:nth-child(even), #death tr:nth-child(even), #recovered tr:nth-child(even){background-color: #f2f2f2;}
+
+#alphabet tr:hover, #confirm tr:hover, #death tr:hover, #recovered tr:hover {background-color: #ddd;}
+
+#alphabet th, #confirm th, #death th, #recovered th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#alphabet, #confirm, #death, #recovered {
+  width: 90%;
+}
+
+#title,
+#buttons {
+    width: 90%;
+}
+
+>>>>>>> parent of 46d129d... improved ui a bit
 #title td:nth-child(1),
 #buttons td:nth-child(1){
     text-align: left;
@@ -74,7 +108,11 @@ table td { /* every column */
 
 table {
 
+<<<<<<< HEAD
     margin-left: 8%;
+=======
+    margin-left: 5%;
+>>>>>>> parent of 46d129d... improved ui a bit
 
 }
 
@@ -95,5 +133,9 @@ button {
 
   .monsterrat {
       font-family: Montserrat;
+<<<<<<< HEAD
   }
 
+=======
+    }
+>>>>>>> parent of 46d129d... improved ui a bit
