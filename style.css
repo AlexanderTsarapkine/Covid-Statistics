@@ -1,4 +1,4 @@
-/*Practice with GitKraken*/
+
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -21,18 +21,8 @@
 #alphabet td:nth-child(1),
 #confirm td:nth-child(1),
 #death td:nth-child(1),
-<<<<<<< HEAD
-<<<<<<< HEAD
 #recovered td:nth-child(1) {
 
-=======
-#recovered td:nth-child(1) {
-
->>>>>>> parent of 46d129d... improved ui a bit
-=======
-#recovered td:nth-child(1) {
-
->>>>>>> parent of 7ee3fb8... styling changes
     text-align: left;
 }
 /*  country statistics */
@@ -45,9 +35,6 @@
     font-family: Montserrat;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 7ee3fb8... styling changes
 #title td:nth-child(1),
 #buttons td:nth-child(1){
     text-align: left;
@@ -87,11 +74,7 @@ table td { /* every column */
 
 table {
 
-<<<<<<< HEAD
     margin-left: 8%;
-=======
-    margin-left: 8%;
->>>>>>> parent of 7ee3fb8... styling changes
 
 }
 
@@ -107,13 +90,8 @@ button {
     font-weight: bold;
     margin-top: 150px;
     color: black;
-    background-color: white;
 }
 
   .monsterrat {
       font-family: Montserrat;
-<<<<<<< HEAD
-  }
-
-=======
   }
