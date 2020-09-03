@@ -21,12 +21,11 @@
 #alphabet td:nth-child(1),
 #confirm td:nth-child(1),
 #death td:nth-child(1),
-#recovered td:nth-child(1) { 
-    
+#recovered td:nth-child(1) {
+
     text-align: left;
 }
 /*  country statistics */
-#countryTable,
 #alphabet,
 #confirm,
 #death,
@@ -35,9 +34,35 @@
     font-family: Montserrat;
 }
 
+#alphabet td, #alphabet th, #confirm td, #confirm th, #death td, #death th, #recovered td, #recovered th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#alphabet tr:nth-child(even), #confirm tr:nth-child(even), #death tr:nth-child(even), #recovered tr:nth-child(even){background-color: #f2f2f2;}
+
+#alphabet tr:hover, #confirm tr:hover, #death tr:hover, #recovered tr:hover {background-color: #ddd;}
+
+#alphabet th, #confirm th, #death th, #recovered th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#alphabet, #confirm, #death, #recovered {
+  width: 90%;
+}
+
+#title,
+#buttons {
+    width: 90%;
+}
+
 #title td:nth-child(1),
 #buttons td:nth-child(1){
-    text-align: left;
+    text-align: center;
 }
 
 #title td,
@@ -68,13 +93,13 @@ header {
   }
 
 table td { /* every column */
-    width: 220px;
-    
+    width: 17%;
+
 }
 
 table {
 
-    margin-left: 8%;
+    margin-left: 5%;
 
 }
 
@@ -90,10 +115,9 @@ button {
     font-weight: bold;
     margin-top: 150px;
     color: black;
-    background-color: white;
+    background-color: #DCDCDC;
 }
 
   .monsterrat {
       font-family: Montserrat;
-  }
-
+    }
