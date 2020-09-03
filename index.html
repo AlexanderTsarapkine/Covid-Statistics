@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!-- header portion -->
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="style.css">
 <head>
   <title>Covid Stats</title>
 </head>
-<!-- header end -->
 
-<!-- body portion -->
 <body>
-<h1> Covid-19 World Statistics </h1>
-
-  <!-- nav and header components -->
+  <header>
+    <h1>Covid World Stats</h1>
+  </header>
+    <div id="output"> </div>
+    <!--  -->
     <table id = "buttons">
       <tr>
         <td><button onclick="alphabe()">Sort by Country</button></td>
@@ -20,30 +19,23 @@
         <td><button onclick="recovere()">Sort by Total Recovered</button></td>
       </tr>
     </table>
-
-    <table id = "title" class = "monsterrat">
+    <table id = "title" class = "monsterrat" >
         <tr >
           <td>Country</td>
-          <td>Confirmed Cases</td>
+          <td>Total Confirmed</td>
           <td>Total Deaths</td>
           <td>Total Recovered</td>
         </tr>
     </table>
 
-  <div id = "tableSection">
-    <!-- api generated tables -->
-    <table id="alphabet" class = "monsterrat"> </table>
+    <table id="alphabet" class = "monsterrat"></table>
     <table id="confirm" class = "monsterrat" ></table>
     <table id="death" class = "monsterrat" ></table>
     <table id="recovered" class = "monsterrat" ></table>
-  </div>
-
-    <!-- importing scripts -->
+    
     <script type="text/javascript" src="makeTable.js"></script>
     <script type="text/javascript" src="sortTable.js"></script>
-
 </body>
-<!-- body end -->
 
 <footer>
   <a href="https://github.com/AlexanderTsarapkine/Covid-Statistics" target="_blank">
