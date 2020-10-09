@@ -1,11 +1,17 @@
-//main api call to be used
-const express = require("express");
-const fetch = require("node-fetch");
-const port = process.env.PORT;
+/*
+Authors: Luka Grahek, Alexander Tsarapkine
+July-August 2020
 
-const covidSummaryurl = 'https://api.covid19api.com/summary';
-const app = express();
+*/
+const express = require("express");   //import Express.js
+const fetch = require("node-fetch");  //import node-fetch
+const port = process.env.PORT;        //create a port for the rest API
 
+const covidSummaryurl = 'https://api.covid19api.com/summary';   //constant API url 
+const app = express();  //create express app
+
+
+//send a get request to the API
 app.get('/getStats', (req, res) =>
 {
   fetch(covidSummaryurl)
@@ -15,6 +21,7 @@ app.get('/getStats', (req, res) =>
   });
 })
 
+//launches local port
 app.listen(port, () => {
  console.log(`Listening on port: ${port}`);
 })
