@@ -25,6 +25,7 @@
 
     text-align: left;
 }
+
 /*  country statistics */
 #countryTable,
 #alphabet,
@@ -36,7 +37,7 @@
 }
 
 #title td:nth-child(1),
-#buttons td:nth-child(1){
+#buttons td:nth-child(1) {
     text-align: left;
 }
 
@@ -73,13 +74,14 @@ table td { /* every column */
 }
 
 table {
-
     margin-left: 8%;
 
 }
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 button {
