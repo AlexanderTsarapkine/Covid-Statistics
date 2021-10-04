@@ -5,7 +5,7 @@ July-August 2020
 */
 const express = require("express");   //import Express.js
 const fetch = require("node-fetch");  //import node-fetch
-const port = process.env.PORT;        //create a port for the rest API
+const port = process.env.PORT || 3000;        //create a port for the rest API
 
 const covidSummaryurl = 'https://api.covid19api.com/summary';   //constant API url 
 const app = express();  //create express app
