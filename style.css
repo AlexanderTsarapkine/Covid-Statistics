@@ -63,6 +63,7 @@ header {
     font-family: Quicksand;
     font-size: 20px;
     padding: 10px;
+    padding-left: 5rem;
     border-bottom: 10px solid #a90676;
     width: 100%;
     position:fixed;
